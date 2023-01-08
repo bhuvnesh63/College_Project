@@ -34,7 +34,9 @@ It is a python framework 	we used this framework because it provides numbers of 
 ⦁	Sqlite/Django Admin Panel
 
 ⦁	Advantages of this Project
+
 The main advantages of this project are:
+
 ⦁	Able to access the notes from anywhere at anytime.
 ⦁	No possibility of lose the data.
 ⦁	 Free access to all features from signup.
