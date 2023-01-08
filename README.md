@@ -45,6 +45,8 @@ The main advantages of this project are:
 The possible enhacement may be a separate section for Teachers to upload the lectures and a central library for students to access the books on the same portal. 
 
 ⦁	Conclusion
+
+
 LMS or Learning Management System is website that offers a platform to manage learning resources and contents. It helps the students to handle all the resources used in the learning process
 
 Time and money are one of the most important factors to any organization. Implementing such software in the college students can surely be a profitable deal as this application helps to carry out tasks with ease and thereby reduces time. 
