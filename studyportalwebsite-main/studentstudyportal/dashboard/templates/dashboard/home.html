@@ -1,0 +1,843 @@
+{% extends 'dashboard/base.html' %}
+{% load static %}
+{% block content %}
+
+
+<!-- banner -->
+<section class="banner-section d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="banner-txt">
+          <h2 class="mb-3">An investment in knowledge pays the best interest.</h2>
+          <h1 class="mb-3 text-capitalize">Best online platform for learning.
+          </h1>
+          <p class="mb-4">We are the first who provides the free online courses
+            realted to the IT or coding field.
+          </p>
+          <a href="{% url 'register' %}" class="btn btn-theme">Join for free</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="banner-img">
+          <div class="circular-img">
+            <div class="circular-img-inner">
+              <div class="circular-img-circle"></div>
+              <img src="{% static 'images/banner-img.png' %}" alt="banner img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end-banner -->
+<!-- courses -->
+<marquee behavior="" direction="" style="color: black;"><h2>Grab the Courses in
+    Least amount.</h2></marquee>
+<section class="courses-section section-padding">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="section-title text-center">
+          <h2 class="title">Courses</h2>
+          <p class="sub-title">Find the right courses for you</p>
+        </div>
+      </div>
+    </div>
+
+    <h2 id="webdevelopment">Web-development</h2>
+    <div class="row">
+
+      <div class="col-md-6 col-lg-3">
+        <div class="courses-item">
+          <a href=https://www.udemy.com/course/become-a-certified-web-developer/
+            target="_blank" class="link">
+            <div class="courses-item-inner">
+              <div class="img-box">
+                <img src="{% static 'images/web-development/4.jpg' %}"
+                  alt="course img">
+              </div>
+              <h3 class="title">Become a Certified HTML, CSS, JavaScript Web
+                Developer</h3>
+              <div class="instructor">
+                <img src="{% static 'images/1.png' %}" alt="instructor img">
+                <span class="instructor-name">admin</span>
+              </div>
+              <div class="rating">
+                <span class="average-rating">(4.5)</span>
+                <span class="average-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+
+
+              </div>
+              <div class="price">₹ 3,399</div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <a
+              href=https://www.udemy.com/course/become-a-certified-web-developer/
+              target="_blank" class="btn btn-theme">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="courses-item">
+          <a
+            href="https://www.udemy.com/course/complete-web-development-course/"
+            target="_blank" class="link">
+            <div class="courses-item-inner">
+              <div class="img-box">
+                <img src="{% static 'images/web-development/1.jpg' %}"
+                  alt="course img">
+              </div>
+              <h3 class="title">The Complete 2022 Web Development Course - Build
+                15 Projects</h3>
+              <div class="instructor">
+                <img src="{% static 'images/1.png' %}" alt="instructor img">
+                <span class="instructor-name">admin</span>
+              </div>
+              <div class="rating">
+                <span class="average-rating">(4.5)</span>
+                <span class="average-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+
+              </div>
+              <div class="price">₹ 3,399</div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <a
+              href="https://www.udemy.com/course/complete-web-development-course/"
+              target="_blank" class="btn btn-theme">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="courses-item">
+          <a
+            href="https://www.udemy.com/course/wordpress-development-create-wordpress-themes-and-plugins/"
+            target="_blank" class="link">
+            <div class="courses-item-inner">
+              <div class="img-box">
+                <img src="{% static 'images/web-development/1.jpg' %}"
+                  alt="course img">
+              </div>
+              <h3 class="title">Complete WordPress Developer Course 2023 -
+                Plugins & Themes</h3>
+              <div class="instructor">
+                <img src="{% static 'images/1.png' %}" alt="instructor img">
+                <span class="instructor-name">admin</span>
+              </div>
+              <div class="rating">
+                <span class="average-rating">(4.5)</span>
+                <span class="average-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+
+              </div>
+              <div class="price">₹ 3,399</div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <a
+              href="https://www.udemy.com/course/wordpress-development-create-wordpress-themes-and-plugins/"
+              target="_blank" class="btn btn-theme">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="courses-item">
+          <a
+            href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+            target="_blank" class="link">
+            <div class="courses-item-inner">
+              <div class="img-box">
+                <img src="{% static 'images/web-development/3.jpg' %}"
+                  alt="course img">
+              </div>
+              <h3 class="title">Build Responsive Real-World Websites with HTML
+                and CSS</h3>
+              <div class="instructor">
+                <img src="{% static 'images/1.png' %}" alt="instructor img">
+                <span class="instructor-name">admin</span>
+              </div>
+              <div class="rating">
+                <span class="average-rating">(4.5)</span>
+                <span class="average-stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </span>
+
+              </div>
+              <div class="price">₹ 3,499</div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <a
+              href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+              target="_blank" class="btn btn-theme">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<hr class="margin-line">
+
+
+
+
+<!-- second courses section -->
+<div class="container">
+
+  <h1 id="Programming">Programming Courses</h1>
+  <div class="row">
+
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a href="https://www.udemy.com/course/pythonforbeginners/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/4.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">Learn Python: The Complete Python Programming
+              Course : Enroll Now</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+
+            </div>
+            <div class="price">₹ 3,499</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.udemy.com/course/pythonforbeginners/"
+            target="_blank" target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a href="https://www.udemy.com/course/100-days-of-code/" target="_blank"
+          class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/1.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">100 Days of Code: The Complete Python Pro Bootcamp
+              for 2023</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.udemy.com/course/100-days-of-code/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a href="https://www.udemy.com/course/the-complete-javascript-course/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/1.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">The Complete JavaScript Course 2023: From Zero to
+              Expert!</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.udemy.com/course/the-complete-javascript-course/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a
+          href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/3.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">Java Programming Masterclass updated to Java 17 :
+              Full Java Course</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a
+            href="https://www.udemy.com/course/java-the-complete-java-developer-course/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<hr class="margin-line">
+<!-- third course section  -->
+
+<div class="container">
+
+  <h1 class="course-heading3" id="morecourses">Most Viewed Courses</h1>
+  <div class="row">
+
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a href="https://www.udemy.com/course/selenium-webdriver-and-python/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/4.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">Python From Scratch & Selenium WebDriver QA
+              Automation 2022</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.udemy.com/course/selenium-webdriver-and-python/"
+            target="_blank" target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a
+          href="https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/1.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">Microsoft Excel - Excel from Beginner to Advanced
+              - Enroll Fast</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a
+            href="https://www.udemy.com/course/microsoft-excel-2013-from-beginner-to-advanced-and-beyond/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a
+          href="https://www.udemy.com/course/aws-certified-cloud-practitioner-new/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/1.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">[NEW] Ultimate AWS Certified Cloud Practitioner -
+              2022 : Enroll Fast</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a
+            href="https://www.udemy.com/course/aws-certified-cloud-practitioner-new/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-lg-3">
+      <div class="courses-item">
+        <a href="https://www.udemy.com/course/the-complete-sql-bootcamp/"
+          target="_blank" class="link">
+          <div class="courses-item-inner">
+            <div class="img-box">
+              <img src="{% static 'images/web-development/3.jpg' %}"
+                alt="course img">
+            </div>
+            <h3 class="title">The Complete SQL Bootcamp 2022: Go from Zero to
+              Hero : Enroll Now</h3>
+            <div class="instructor">
+              <img src="{% static 'images/1.png' %}" alt="instructor img">
+              <span class="instructor-name">admin</span>
+            </div>
+            <div class="rating">
+              <span class="average-rating">(4.5)</span>
+              <span class="average-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </span>
+
+            </div>
+            <div class="price">₹ 3,399</div>
+          </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <a href="https://www.udemy.com/course/the-complete-sql-bootcamp/"
+            target="_blank" class="btn btn-theme">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+<!-- end-courses -->
+<!-- Testimonials section -->
+<!-- testimonials -->
+<section class="testimonials-section section-padding position-relative">
+  <div class="decoration-circles">
+    <div class="decoration-circles-item"></div>
+    <div class="decoration-circles-item"></div>
+    <div class="decoration-circles-item"></div>
+    <div class="decoration-circles-item"></div>
+  </div>
+  <div class="decoration-imgs">
+    <img src="{% static 'images/testimonial/1.png' %}" alt="firsttestimonial"
+      class="decoration-imgs-item">
+    <img src="{% static 'images/testimonial/2.png' %}" alt="secondtestimonila"
+      class="decoration-imgs-item">
+    <img src="{% static 'images/testimonial/3.png' %}" alt="thirdtestimonial"
+      class="decoration-imgs-item">
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="section-title text-center">
+          <h2 class="title">students feedback</h2>
+          <p class="sub-title">what our students say</p>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+        <div class="img-box rounded-circle position-relative">
+          <img src="{% static 'images/testimonial/1.png' %}" class="w-100
+            js-testimonial-img rounded-circle" alt="testimonial">
+        </div>
+        <div id="carouselOne" class="carousel slide text-center"
+          data-bs-ride="carousel">
+          <div class="carousel-inner mb-4">
+            <div class="carousel-item active" data-js-testimonial-img="{% static
+              'images/testimonial/1.png' %}">
+              <div class="testimonials-item">
+                <p class="text-1">I have learnt many things from this portal.It
+                  is so easy to use and i loved it. </p>
+                <h3>Rahul</h3>
+                <p>B-tech Students</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-js-testimonial-img="{% static
+              'images/testimonial/2.png' %}">
+              <div class="testimonials-item">
+                <p class="text-1">Best portal for students for store the notes
+                  and other things online and it can be used anywhere and
+                  anytime.</p>
+                <h3>Himanshu</h3>
+                <p>MCA</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-js-testimonial-img="{% static
+              'images/testimonial/3.png' %}">
+              <div class="testimonials-item">
+                <p class="text-1">This portal really help me to get good courses
+                  in limited amount and store the notes and others things
+                  without any charge or fees.</p>
+                <h3>Aarti Saxena</h3>
+                <p>M-tech</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselOne"
+            data-bs-slide="prev">
+            <i class="fas fa-arrow-left"></i>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselOne"
+            data-bs-slide="next">
+            <i class="fas fa-arrow-right"></i>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--end- testimonials -->
+
+
+<!-- ======= Services Section ======= -->
+
+<section id="service" class="services pt-0">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-header">
+
+      <h2 style="
+        text-align: center;
+        ">Our Services</h2>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <a href="{% url 'notes' %}">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/notes.jpg' %}"
+              alt="Notes image">
+            <div class="card-body" style="color: black;">
+              <h5 class="card-title ">
+                Notes
+              </h5>
+              <div style="color: black;">
+                Create Notes to refer them later. They are stored permanently
+                until deleted
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="{% url 'homework' %}">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/homework.jpg' %}"
+              alt="Notes image">
+            <div class="card-body" style="color: black;">
+              <h5 class="card-title ">
+                Homework
+              </h5>
+              Add homeworks and assign them deadlines. They will be displayed
+              prioritised by deadlines
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3 ">
+        <a href="{% url 'books' %}">
+          <div class="card mt-20">
+            <img class="card-img-top" src="{% static 'images/books.jpg' %}"
+              alt="Notes image">
+            <div class="card-body" style="color: black;">
+              <h5 class="card-title ">
+                Books
+              </h5>
+              Browse books from a list of neatly organised book menu
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="{% url 'todo' %}">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/todo.jpg' %}"
+              alt="Notes image">
+            <div class="card-body" style="color: black;">
+              <h5 class="card-title ">
+                To Do
+              </h5>
+              Add your to-do lists for your day and remove them as you finish
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- End Services Section -->
+
+
+<!-- <section class="container text-center">
+  <br>
+  <div class="row">
+    <div class="col-md-3 ">
+      <a href="{% url 'books' %}">
+        <div class="card mt-20">
+          <img class="card-img-top" src="{% static 'images/books.jpg' %}" alt="Notes image">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title ">
+              Books
+            </h5>
+            Browse books from a list of neatly organised book menu
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+
+    <div class="col-md-3">
+      <a href="{% url 'dictionary' %}">
+        <div class="card">
+          <img class="card-img-top" src="{% static 'images/dictionary.jpg' %}" alt="Notes image">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title ">
+              Dictionary
+            </h5>
+            A vocabulary from a book is troubling you? No problem, enter the word, and the meaning will be displayed
+            almost instantaneously.
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-3">
+      <a href="{% url 'wiki' %}">
+        <div class="card">
+          <img class="card-img-top" src="{% static 'images/wiki.jpg' %}" alt="Notes image">
+          <div class="card-body" style="color: black;">
+            <h5 class="card-title ">
+              WikiPedia
+            </h5>
+            Homework and Assignments? Search wikipedia to get fast results
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    
+  </div>
+
+
+</section>  -->
+<!-- ======= Footer ======= -->
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-3">
+          <div class="footer-item">
+            <h3 class="footer-logo"><span>echo</span>LEARN</h3>
+            <ul>
+              <li><a href="#service">what we offers</a></li>
+              <li><a href="{% url 'books' %}">Books</a></li>
+              <li><a href="{% url 'wiki' %}">WikiPedia</a></li>
+              <li><a href="{% url 'dictionary' %}">Dictionary</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="footer-item">
+            <h3 style="
+              color: white;
+              ">learning</h3>
+            <ul>
+              <li><a href="#webdevelopment">Web Development Courses</a></li>
+              <li><a href="#Programming">Programming Courses</a></li>
+              <li><a href="#morecourses">Most Viewed Courses</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="footer-item">
+            <h3 style="
+              color: white;
+              ">Join Us</h3>
+            <ul>
+              <li><a href="{% url 'login' %}">Login</a></li>
+              <li><a href="{% url 'register' %}">Register</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="footer-item">
+            <h3 style="
+              color: white;
+              ">get in touch</h3>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook social-icon"></i>facebook</a></li>
+              <li><a href="#"><i class="fab fa-twitter social-icon"></i>twitter</a></li>
+              <li><a href="#"><i class="fab fa-instagram social-icon"></i>instagram</a></li>
+              <li><a href="#"><i class="fab fa-youtube social-icon"></i>youtube</a></li>
+              <li><a href="#"><i class="fab fa-linkedin social-icon"></i>linkedin</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="m-0 py-4 text-center">Create by EchoTeam</p>
+    </div>
+  </div>
+</footer>
+<!--end- footer -->
+
+
+
+<!-- End Footer -->
+{% endblock content %}
