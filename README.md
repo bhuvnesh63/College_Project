@@ -63,3 +63,16 @@ LMS or Learning Management System is website that offers a platform to manage l
 
 Time and money are one of the most important factors to any organization. Implementing such software in the college students can surely be a profitable deal as this application helps to carry out tasks with ease and thereby reduces time. 
 
+
+
+To run the project follow these steps:-
+
+1. Install Python in the system.
+2. Dowload or setup Django environment into your system.
+3. Open the project is the code Editor.
+4. Now hit the main file of the project (manage.py) by this command.
+(python manage.py runserver).
+
+5. Some modules like (wikipedia or any). It cause some error. Simply dowload these modules by excute this command in the terminal(pip install wikipedia).
+
+
