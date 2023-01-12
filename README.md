@@ -28,19 +28,26 @@ The project will contain the following modules:
 ⦁	Technologies to be used
 
 The following technologies are utilized for this project. This list may change as need for more features/improvements arise in the future.
+
 ⦁	Software Platform 
-⦁	Front-end
+
+1. Front-end
+
 ⦁	HTML, CSS  === We use HTML for building the basic structure of the website and CSS is used for the designing the webpage.
 
 ⦁	Bootstrap ==== We use BOOTSTRAP for the responsive view of the website.
 
-⦁	Back-end
+2. Back-end
+
 ⦁	Python   ==== We use python because it is easy programming language than other language. We use python for BACKEND Development.
 
-⦁	Django(Framework)
+
+3. Django(Framework)
+
 It is a python framework 	we used this framework because it provides numbers of library which helps easy development.
 
-⦁	Database
+4. Database
+
 ⦁	Sqlite/Django Admin Panel
 
 ⦁	Advantages of this Project
@@ -54,6 +61,7 @@ The main advantages of this project are:
 ⦁	 Avoid the paper use.
 
 ⦁	Future Scope and further enhancement of the Project
+
 The possible enhacement may be a separate section for Teachers to upload the lectures and a central library for students to access the books on the same portal. 
 
 ⦁	Conclusion
