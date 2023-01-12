@@ -1,4 +1,4 @@
-# College_Project
+# College_Project (To run the project .. follow the steps given below or at the end of the Readme file.)
 
 The project title is ‘Learning Management System’. The aim of the project is to build a website for students for making their notes online or storing the other learning things and provide the courses of various fields. The main objective of the system is learning but it also reduces the paper work in the present time.
 
@@ -9,10 +9,20 @@ The main objective of the LMS is to help the students get over the traditional m
 The project will contain the following modules:
 
 ⦁	Manage.py: It is the main file which contains the core configuration of the project. 
+
+
 ⦁	LMS folder – It contains all files of the project like the URL file, setting file , views file.
+
+
 ⦁	Notes Module: Students can create online notes.
+
+
 ⦁	Templates-It contains the all html files.
+
+
 ⦁	Static- It will contain the public/static files used in the projects like scripts, CSS files, images, etc.
+
+
 
 
 ⦁	Technologies to be used
