@@ -55,10 +55,15 @@ It is a python framework 	we used this framework because it provides numbers of 
 The main advantages of this project are:
 
 ⦁	Able to access the notes from anywhere at anytime.
+
 ⦁	No possibility of lose the data.
+
 ⦁	 Free access to all features from signup.
+
 ⦁	It is smart learning application.
+
 ⦁	 Avoid the paper use.
+
 
 ⦁	Future Scope and further enhancement of the Project
 
