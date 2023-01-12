@@ -50,7 +50,7 @@ It is a python framework 	we used this framework because it provides numbers of 
 
 ⦁	Sqlite/Django Admin Panel
 
-⦁	Advantages of this Project
+Advantages of this Project
 
 The main advantages of this project are:
 
@@ -65,7 +65,7 @@ The main advantages of this project are:
 ⦁	 Avoid the paper use.
 
 
-⦁	Future Scope and further enhancement of the Project
+Future Scope and further enhancement of the Project
 
 The possible enhacement may be a separate section for Teachers to upload the lectures and a central library for students to access the books on the same portal. 
 
